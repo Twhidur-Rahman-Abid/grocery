@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 import { motion, AnimatePresence } from "motion/react";
-import CategoryCard from "../home/CategoryCard";
+import CategoryCard from "../CategoryCard";
 import Link from "next/link";
 import NavLink from "./NavLink";
 
