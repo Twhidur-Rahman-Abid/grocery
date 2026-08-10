@@ -13,7 +13,7 @@ const Heading = ({ className, children }) => {
         ease: [0.16, 1, 0.3, 1],
       }}
       className={cn(
-        "text-xl lg:text-[50px] font-bold font-dancing italic text-primary",
+        "text-3xl lg:text-[50px] font-bold font-dancing italic text-primary",
         className,
       )}
     >
