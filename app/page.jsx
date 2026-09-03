@@ -3,8 +3,9 @@ import CategoryList from "./_components/home/CategoryList";
 import Hero from "./_components/home/Hero";
 import BestProduct from "./_components/home/BestProduct";
 import OfferProduct from "./_components/home/OfferProduct";
-import BuyOneGetOne from "./_components/home/BuyOneGetOne";
 import ChooseUs from "./_components/home/ChooseUs";
+import Marquee from "./_components/home/Marquee";
+import NewArrivals from "./_components/home/NewArrivals";
 
 const page = () => {
   return (
@@ -12,9 +13,10 @@ const page = () => {
       <Hero />
       <CategoryList />
       <BestProduct />
+      <Marquee />
       <OfferProduct />
       <ChooseUs />
-      <BuyOneGetOne />
+      <NewArrivals />
     </div>
   );
 };

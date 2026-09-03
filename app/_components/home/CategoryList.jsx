@@ -13,7 +13,7 @@ const CategoryList = () => {
         className="absolute right-0 -z-1 bottom-0 w-full object-cover opacity-30"
       />
 
-      <Slider scrollAmount={130}>
+      <Slider title="Categories" scrollAmount={130}>
         <div className=" flex gap-6 lg:gap-15 no-scrollbar">
           <CategoryCard className="bg-[#FFE9E2]" />
           <CategoryCard className="bg-[#FBD8E2]" />

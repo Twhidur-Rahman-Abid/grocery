@@ -37,7 +37,7 @@ const BestProduct = () => {
             },
           },
         }}
-        className="container grid grid-cols-2 gap-6"
+        className="container grid md:grid-cols-2 gap-6"
       >
         {[...Array(4)].map((v, i) => (
           <motion.div key={i} variants={cardVariants}>

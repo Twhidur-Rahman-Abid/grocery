@@ -75,7 +75,9 @@ const VerticalProductCard = ({
                   )}
                 </div>
                 <Actions
-                  className={"flex-row w-full [&_button]:flex-1 mt-5"}
+                  className={
+                    "flex-col md:flex-row w-full [&_button]:flex-1 mt-5"
+                  }
                   product={product}
                   price={100}
                 />

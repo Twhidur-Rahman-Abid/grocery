@@ -27,7 +27,13 @@ export const Actions = ({ product, price, className }) => {
       <Button type="button" size="sm" onClick={addToCart}>
         Add Card
       </Button>
-      <Button type="button" size="sm" outline onClick={toBuy}>
+      <Button
+        className={"bg-amber-500 border-0  text-white "}
+        type="button"
+        size="sm"
+        outline
+        onClick={toBuy}
+      >
         Buy Now
       </Button>
     </div>

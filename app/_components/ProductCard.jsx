@@ -75,7 +75,7 @@ const ProductCard = ({
                 </div>
               </div>
             </div>
-            <div className="absolute inset-0  bg-black/20 backdrop-blur-[1px] hidden rounded-[20px]  group-hover:grid place-items-center">
+            <div className="absolute inset-0  bg-black/20 backdrop-blur-[1px] hidden rounded-[20px]  group-hover:grid place-items-center duration-300 transition-all">
               <Actions product={product} price={100} />
             </div>
           </div>
