@@ -31,7 +31,7 @@ const OfferProduct = () => {
             },
           },
         }}
-        className="container grid grid-cols-4 gap-6"
+        className="container grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-6"
       >
         {[...Array(4)].map((v, i) => (
           <motion.div key={i} variants={cardVariants}>
