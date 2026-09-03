@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import * as motion from "motion/react-client"; // সরাসরি সার্ভার কম্পোনেন্টে ব্যবহারের জন্য
+import * as motion from "motion/react-client"; 
 
 import qualityImg from "@/public/premium.svg";
 import priceImg from "@/public/best-price.svg";
